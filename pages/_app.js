@@ -20,6 +20,8 @@ export default function Nextra({ Component, pageProps }) {
           type="font/woff2"
           crossOrigin="anonymous"
         />
+        <link rel="manifest" href="https://progressier.app/ET0UFipHD5P221JsntBD/progressier.json"/>
+        <script defer src="https://progressier.app/ET0UFipHD5P221JsntBD/script.js"></script>
       </Head>
       <Component {...pageProps} />
     </>
